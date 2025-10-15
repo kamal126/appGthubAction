@@ -7,7 +7,7 @@ def test_add():
     assert add(2.5, 1.5) == 4.0
 
 def test_subtract():
-    assert subtract(5, 3) == 2
-    assert subtract(0, 1) == -1
-    assert subtract(-1, -1) == 0
-    assert subtract(2.5, 1.5) == 1.0
+    assert sub(5, 3) == 2
+    assert sub(0, 1) == -1
+    assert sub(-1, -1) == 0
+    assert sub(2.5, 1.5) == 1.0
